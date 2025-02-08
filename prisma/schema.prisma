@@ -13,3 +13,9 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Task {
+  id            Int       @default(autoincrement()) @id
+  title         String    @db.VarChar(255)  
+  description   String?   
+  completed     Boolean?  @default(false)
+}
