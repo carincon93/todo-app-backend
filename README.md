@@ -9,7 +9,7 @@ git clone https://github.com/carincon93/todo-app-backend.git
 cd todo-app-backend
 ```
 
-## 🧞 Configurar .env
+## 📄 Configurar .env
 Renombre el archivo .env.example por .env y complete las siguientes variables de entorno:
 ```sh
 DATABASE_URL="postgresql://username:password@localhost:5432/example_db"
@@ -18,7 +18,7 @@ PORT=
 ```
 En la variable CORS_ALLOWED_ORIGINS debe diligenciar la ip y el puerto del servidor del frontend para evitar problemas con el CORS.
 
-## 🧞 Comandos
+## ⌨️ Comandos
 
 | Comando                    | Acción                                           |
 | :------------------------- | :----------------------------------------------- |
