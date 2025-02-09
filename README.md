@@ -16,7 +16,8 @@ DATABASE_URL="postgresql://username:password@localhost:5432/example_db"
 CORS_ALLOWED_ORIGINS=
 PORT=
 ```
-En la variable CORS_ALLOWED_ORIGINS debe diligenciar la ip y el puerto del servidor del frontend para evitar problemas con el CORS.
+*En la variable CORS_ALLOWED_ORIGINS debe diligenciar la ip y el puerto del servidor del frontend para evitar problemas con el CORS.
+*PORT= Indique el puerto donde debería cargar el servidor del backend, por defecto 3000.
 
 ## ⌨️ Comandos
 
